@@ -1,0 +1,46 @@
+.onlineIcon {
+  margin-right: 5%;
+}
+
+.infoBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  position: relative;
+  font-size: 27px;
+  font-family: cursive;
+  border-radius: 11px 11px 0 0;
+}
+
+.infoBar .head {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  /* Prevents wrapping of heading text */
+}
+
+.infoBar a {
+  margin-left: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .infoBar {
+    /* flex-direction: column; */
+  }
+
+  .infoBar .head {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .infoBar a {
+    margin-left: 0;
+  }
+}

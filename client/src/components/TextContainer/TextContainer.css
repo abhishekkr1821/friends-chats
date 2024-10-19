@@ -1,0 +1,67 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+
+}
+
+h1{
+  color:black;
+  font-family: cursive;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+h4{
+  color:#810000;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2{
+  color:#01235a;
+  font-style: italic;
+}
+h3{
+  font-family: cursive;
+  font-size: medium;
+}
+
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize
+}
+
+.activeItem p {
+  margin-top: -5px;
+  font-size: 25px;
+}
+
+.activeContainer img {
+  margin-top: -30px;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+  font-size: 25px
+}
+
+@media (min-width: 200px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
